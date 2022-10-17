@@ -1,0 +1,36 @@
+<h1>Dokumentasi Rest Api Contact Management</h1>
+<p><i>v<%- version %></i></p> 
+<a href="http://localhost:3100/contact/gg/10">Testing</a>
+<hr>
+<p><b>SIGNUP : http://localhost:3100/user/signup</b></p>
+<p>Method : POST</p>
+<p>Body : username, email, password, nama, noHp, bio, propict</p>
+<hr>
+<p><b>SIGNIN : http://localhost:3100/user/signin</b></p>
+<p>Method : POST</p>
+<p>Body : email, password</p>
+<hr><hr><hr><hr><hr>
+<p><b>GET contact : http://localhost:3100/contact/</b></p>
+<p>Method : GET</p>
+<p>Auth bearer token : token</p>
+<hr>
+<p><b>GET contact by ID : http://localhost:3100/contact/id</b></p>
+<p>Method : GET</p>
+<p>Auth bearer token : token</p>
+<hr>
+<p><b>ADD contact : http://localhost:3100/contact</b></p>
+<p>Method : POST</p>
+<p>Body : email, nama, noHp, propict</p>
+<p>Auth bearer token : token</p>
+
+<hr>
+<p><b>UPDATE contact : http://localhost:3100/contact/id</b></p>
+<p>Method : PATCH</p>
+<p>Body : email, nama, noHp, propict</p>
+<p>Auth bearer token : token</p>
+
+<hr>
+<p><b>DELETE contact : http://localhost:3100/contact/id</b></p>
+<p>Method : DELETE</p>
+<p>Auth bearer token : token</p>
+<hr>
