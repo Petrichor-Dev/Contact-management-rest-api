@@ -3,7 +3,7 @@
   "development": {
     "username": "root",
     "password": null,
-    "database": "test",
+    "database": "contact_app",
     "host": "localhost",
     "dialect": "mysql"
   },
